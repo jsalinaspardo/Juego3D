@@ -9,6 +9,8 @@ public class Puerta : MonoBehaviour
 
     bool abierta, moviendo;
 
+    public bool Abierta => abierta;
+
     void OnMouseDown() { if (!bloqueada) Alternar(); }
 
     public void Alternar()
